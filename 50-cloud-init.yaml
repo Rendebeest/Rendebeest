@@ -7,6 +7,9 @@ network:
         enp2s0:
             addresses: [192.168.168.1/24]
             dhcp4: false
+            nameservers:
+              search: [rendebeest.lan]
+              addresses: [192.168.168.1]
             optional: true
         enx00e04c680313:
             addresses: []

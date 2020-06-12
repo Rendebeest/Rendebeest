@@ -1,3 +1,12 @@
+zone "rendebeest.lan" {
+    type master;
+    file "/etc/bind/zones/db.rendebeest.lan"; # zone file path
+};
+
+zone "168.168.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/db.192.168.168";  # 192.168.168.0/24 subnet
+};
 //
 // Do any local configuration here
 //
