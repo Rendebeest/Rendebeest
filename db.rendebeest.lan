@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	frontnode.rendebeest.lan. admin.rendebeest.lan. (
-			2006121		; Serial
+			2020062201	; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire

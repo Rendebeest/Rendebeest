@@ -6,7 +6,7 @@ options {
 	directory "/var/cache/bind";
 
 	recursion yes;
-	allow recursion { trusted; };
+	allow-recursion { trusted; };
 	listen-on { 192.168.168.1; };
 	allow-transfer { none; };
 	
@@ -32,4 +32,3 @@ options {
 	auth-nxdomain no;    # conform to RFC1035
 	listen-on-v6 { any; };
 };
-
